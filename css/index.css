@@ -1,10 +1,43 @@
 @media (max-width: 992px) {
-    #carouselExampleDark{
+    #carouselExampleDark {
+        width: 0;
+    }
+}
+
+@media (min-width: 992px) {
+    #carouselExampleIndicators {
         width: 0;
     }
 }
 
 
 .carousel-item h4 {
-    margin-top: -70px;
+    margin-top: -80px; 
+}
+
+.contenedor {
+    margin-left: 0.9375rem; /* Convertido de 15px a rem */
+    margin-right: 0.9375rem; /* Convertido de 15px a rem */
+}
+
+
+@media (max-width: 768px) {
+    
+    .carousel-item a {
+        text-decoration: none;
+        display: flex;
+        justify-content: center;
+        align-items: center; /* Cambiado de align-content a align-items */
+        height: 100%; /* Ajustado la altura al 100% */
+    }
+    .boton-carrousel {
+        display: flex;
+        justify-content: center;
+        align-items: center; /* Alinea verticalmente el contenido */
+        height: 100%; /* Ocupa toda la altura del contenedor */
+        width: 100%; /* Ocupa todo el ancho del contenedor */
+    }
+    .boton-carrousel {
+        display: none; /* Oculta el botón en resoluciones menores a 992px */
+    }
 }

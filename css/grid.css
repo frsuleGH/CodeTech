@@ -7,8 +7,7 @@
     display: grid;
     align-items: center;
     justify-content: center; /* Centra horizontalmente las columnas */
-    gap: 12px;
-   
+    gap: 0.75rem; /* Convertido de 12px a rem */
 }
 
 @media (min-width: 768px) {
