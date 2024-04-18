@@ -1,0 +1,14 @@
+#imgnav {
+    width: 180px;
+    margin: 0 auto;
+    animation: reducirAncho 2s forwards; /* Inicia la animación automáticamente y la mantiene en el último estado */
+}
+
+@keyframes reducirAncho {
+    from {
+        width: 180px;
+    }
+    to {
+        width: 100px;
+    }
+}

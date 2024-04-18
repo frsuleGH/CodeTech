@@ -1,0 +1,24 @@
+footer div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+footer div h5{
+    font-family: monospace;
+
+}
+
+footer div img{
+    width: 35%;
+}
+
+@media (min-width:992px ) {
+    footer div img {
+        width: 15%;
+        margin-bottom: -35px;
+        padding-bottom: 0;
+    }
+}

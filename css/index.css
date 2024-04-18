@@ -1,0 +1,10 @@
+@media (max-width: 992px) {
+    #carouselExampleDark{
+        width: 0;
+    }
+}
+
+
+.carousel-item h4 {
+    margin-top: -70px;
+}
