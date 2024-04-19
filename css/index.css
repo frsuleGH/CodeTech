@@ -36,6 +36,7 @@ p,h2,h3,h4,h5,a{
         justify-content: center;
         align-items: center; /* Cambiado de align-content a align-items */
         height: 100%; /* Ajustado la altura al 100% */
+        margin-top: -80px;
     }
     .boton-carrousel {
         display: flex;
