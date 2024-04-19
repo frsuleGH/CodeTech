@@ -1,18 +1,18 @@
 #imgnav {
-    width: 11.25rem;
-    margin: 0 auto;
-    animation: reducirAncho 2s forwards; /* Inicia la animación automáticamente y la mantiene en el último estado */
+  width: 11.25rem;
+  margin: 0 auto;
+  animation: reducirAncho 2s forwards; /* Inicia la animación automáticamente y la mantiene en el último estado */
 }
 
 @keyframes reducirAncho {
-    from {
-        width: 11.25rem;
-    }
-    to {
-        width: 6.25rem;
-    }
+  from {
+    width: 11.25rem;
+  }
+  to {
+    width: 6.25rem;
+  }
 }
 
-.btn .btn-secondary h5{
-    margin-bottom: 0;
+.btn .btn-secondary h5 {
+  margin-bottom: 0;
 }

@@ -1,17 +1,17 @@
 .contenedor {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
 .grid3 {
-    display: grid;
-    align-items: center;
-    justify-content: center; /* Centra horizontalmente las columnas */
-    gap: 0.75rem; /* Convertido de 12px a rem */
+  display: grid;
+  align-items: center;
+  justify-content: center; /* Centra horizontalmente las columnas */
+  gap: 0.75rem; /* Convertido de 12px a rem */
 }
 
 @media (min-width: 768px) {
-    .grid3 {
-        grid-template-columns: 33% 33% 33%;
-    }
+  .grid3 {
+    grid-template-columns: 33% 33% 33%;
+  }
 }
