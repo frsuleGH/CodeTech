@@ -6,15 +6,17 @@ document
     // Obtener el mensaje del textarea
     var mensaje = document.getElementById("mensaje").value;
 
-     // Verificar si el campo de mensaje está vacío
-     if (mensaje.trim() === "") {
+    // Verificar si el campo de mensaje está vacío
+    if (mensaje.trim() === "") {
       // Mostrar un mensaje de error en rojo
       var mensajeError = document.createElement("div");
       mensajeError.classList.add("alert", "alert-danger");
       mensajeError.textContent = "Por favor, llena el campo de mensaje.";
-      document.getElementById("whatsappForm").insertAdjacentElement("beforeend", mensajeError);
+      document
+        .getElementById("whatsappForm")
+        .insertAdjacentElement("beforeend", mensajeError);
       return; // Detener la ejecución del código
-  }
+    }
 
     // Formatear el mensaje para la URL de WhatsApp
     var mensajeWhatsApp = encodeURIComponent(mensaje);
