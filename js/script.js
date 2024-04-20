@@ -10,7 +10,7 @@ document
     if (mensaje.trim() === "") {
       // Mostrar un mensaje de error en rojo
       var mensajeError = document.createElement("div");
-      mensajeError.classList.add("alert", "alert-danger");
+      mensajeError.classList.add("alert", "alert-danger", "mt-2");
       mensajeError.textContent = "Por favor, llena el campo de mensaje.";
       document
         .getElementById("whatsappForm")
