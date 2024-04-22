@@ -58,6 +58,6 @@ document
     }
 
     // Configurar intervalo de cambio para ambos carruseles
-    setInterval(nextSlideDesktop, 4000);
-    setInterval(nextSlideMobile, 4000);
+    setInterval(nextSlideDesktop, 5000);
+    setInterval(nextSlideMobile, 5000);
   });
