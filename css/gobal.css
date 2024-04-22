@@ -6,3 +6,10 @@ h5,
 a {
     font-family: "Kanit", sans-serif;
 }
+
+@media (min-width: 992px) {
+    .historia{
+        margin-left: 5rem;
+        margin-right: 5rem;
+    }
+}
