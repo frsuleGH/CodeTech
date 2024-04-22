@@ -34,3 +34,30 @@ document
     // Redirigir a WhatsApp
     window.location.href = url;
   });
+
+
+  document.addEventListener('DOMContentLoaded', function () {
+    // Función para avanzar al siguiente slide en el carrusel de computadora
+    function nextSlideDesktop() {
+      var carouselDesktop = document.getElementById('carouselExampleDark');
+      var currentIndex = parseInt(carouselDesktop.querySelector('.active').getAttribute('data-bs-slide-to'));
+      var slides = carouselDesktop.querySelectorAll('.carousel-indicators button');
+
+      var nextIndex = (currentIndex + 1) % slides.length;
+      slides[nextIndex].click();
+    }
+
+    // Función para avanzar al siguiente slide en el carrusel móvil
+    function nextSlideMobile() {
+      var carouselMobile = document.getElementById('carouselExampleIndicators');
+      var currentIndex = parseInt(carouselMobile.querySelector('.active').getAttribute('data-bs-slide-to'));
+      var slides = carouselMobile.querySelectorAll('.carousel-indicators button');
+
+      var nextIndex = (currentIndex + 1) % slides.length;
+      slides[nextIndex].click();
+    }
+
+    // Configurar intervalo de cambio para ambos carruseles
+    setInterval(nextSlideDesktop, 4000);
+    setInterval(nextSlideMobile, 4000);
+  });
