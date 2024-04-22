@@ -1,12 +1,12 @@
 @media (max-width: 992px) {
   #carouselExampleDark {
-    width: 0;
+    display: none;
   }
 }
 
 @media (min-width: 992px) {
   #carouselExampleIndicators {
-    width: 0;
+    display: none;
   }
 
   .carousel .carousel-item{

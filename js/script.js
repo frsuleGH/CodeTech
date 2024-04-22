@@ -36,7 +36,7 @@ document
   });
 
 
-  document.addEventListener('DOMContentLoaded', function () {
+  window.onload = function() {
     // Función para avanzar al siguiente slide en el carrusel de computadora
     function nextSlideDesktop() {
       var carouselDesktop = document.getElementById('carouselExampleDark');
@@ -60,4 +60,4 @@ document
     // Configurar intervalo de cambio para ambos carruseles
     setInterval(nextSlideDesktop, 5000);
     setInterval(nextSlideMobile, 5000);
-  });
+  };
