@@ -16,3 +16,13 @@
 .btn .btn-secondary h5 {
   margin-bottom: 0;
 }
+
+@media (min-width: 992px) {
+  .navbar {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000; /* Ajusta según sea necesario para que la barra se superponga correctamente */
+  }
+}
