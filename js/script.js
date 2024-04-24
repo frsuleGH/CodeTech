@@ -22,7 +22,7 @@ document
     var mensajeWhatsApp = encodeURIComponent(mensaje);
 
     // Tu número de teléfono (reemplaza '543425336098' con tu número)
-    var numeroTelefono = "543425336098";
+    // var numeroTelefono = "543425336098";
 
     // URL de WhatsApp con el mensaje y tu número de teléfono
     var url =
