@@ -49,3 +49,7 @@ textarea {
   field-sizing: content;
   max-height: 100%;
 }
+
+.color-primario{
+  color: #0d6efd;
+}
