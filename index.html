@@ -1,295 +1,368 @@
 <!DOCTYPE html>
 <html lang="es">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>CodeTech</title>
-    <link rel="icon" type="image/png" href="/Static/CodeTech Original.png" />
-    <link rel="stylesheet" href="css/index.css" />
-    <link rel="stylesheet" href="css/navbar.css" />
-    <link rel="stylesheet" href="css/footer.css" />
-    <link rel="stylesheet" href="css/gobal.css" />
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
-      crossorigin="anonymous"
-    />
 
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
-      rel="stylesheet"
-    />
-  </head>
-  <body>
-    <!--Barra-->
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="index.html">
-          <img id="imgnav" src="/Static/CodeTech Original.png" alt="logo" />
-        </a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarNav"
-          aria-controls="navbarNav"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav">
-            <li class="nav-item">
-              <a
-                class="nav-link active"
-                style="color: #1171df"
-                aria-current="page"
-                href="index.html"
-                >Inicio</a
-              >
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" style="color: #e56d25" href="nosotros.html"
-                >Nosotros</a
-              >
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" style="color: #e56d25" href="historia.html"
-                >Historia</a
-              >
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CodeTech</title>
+  <link rel="icon" type="image/png" href="/Static/CodeTech Original.png" />
+  <link rel="stylesheet" href="css/index.css" />
+  <link rel="stylesheet" href="css/navbar.css" />
+  <link rel="stylesheet" href="css/grid.css" />
+  <link rel="stylesheet" href="css/footer.css" />
+  <link rel="stylesheet" href="css/gobal.css" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
 
-    <!--Inicio de carrucel Computadora-->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet" />
+</head>
 
-    <div
-      style="font-family: monospace"
-      id="carouselExampleDark"
-      class="carousel carousel-dark slide"
-    >
-      <div class="carousel-indicators">
-        <button
-          type="button"
-          data-bs-target="#carouselExampleDark"
-          data-bs-slide-to="0"
-          class="active"
-          aria-current="true"
-          aria-label="Slide 1"
-        ></button>
-        <button
-          type="button"
-          data-bs-target="#carouselExampleDark"
-          data-bs-slide-to="1"
-          aria-label="Slide 2"
-        ></button>
-        <button
-          type="button"
-          data-bs-target="#carouselExampleDark"
-          data-bs-slide-to="2"
-          aria-label="Slide 3"
-        ></button>
-      </div>
-      <div class="carousel-inner">
-        <div class="carousel-item active" data-bs-interval="3000">
-          <img src="/Static/CodeTech Lema.png" class="d-block w-100" alt="..." />
-          <div class="carousel-caption d-none d-md-block">
-            <a
-              class="btn btn-secondary"
-              href="nosotros.html"
-              style="
-                color: #1171df;
-                background-color: #ffffffda;
-                border: #1171df solid;
-              "
-              role="button"
-              aria-disabled="true"
-              ><h5>Quienes Somos</h5></a
-            >
-          </div>
-        </div>
-        <div class="carousel-item" data-bs-interval="2000">
-          <img src="/Static/Fondo1logo.jpg" class="d-block w-100" alt="..." />
-          <div class="carousel-caption d-none d-md-block">
-            <a
-              class="btn btn-secondary"
-              href="historia.html"
-              style="
-                color: #1171df;
-                background-color: #ffffffda;
-                border: #1171df solid;
-              "
-              role="button"
-              aria-disabled="true"
-              ><h5>Nuestra historia</h5></a
-            >
-            <p></p>
-          </div>
-        </div>
-        <div class="carousel-item">
-          <img src="/Static/Fondo2logo.jpg" class="d-block w-100" alt="..." />
-          <div class="carousel-caption d-none d-md-block">
-            <a
-              class="btn btn-secondary"
-              href="#whatsappForm"
-              style="
-                color: #1171df;
-                background-color: #ffffffda;
-                border: #1171df solid;
-              "
-              role="button"
-              aria-disabled="true"
-              ><h5>Contacto</h5></a
-            >
-            <p></p>
-          </div>
-        </div>
-      </div>
-      <button
-        class="carousel-control-prev"
-        type="button"
-        data-bs-target="#carouselExampleDark"
-        data-bs-slide="prev"
-      >
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
+<body>
+  <!--Barra-->
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html">
+        <img id="imgnav" src="/Static/CodeTech Original.png" alt="logo" />
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
       </button>
-      <button
-        class="carousel-control-next"
-        type="button"
-        data-bs-target="#carouselExampleDark"
-        data-bs-slide="next"
-      >
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" style="color: #1171df" aria-current="page" href="index.html">Inicio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" style="color: #e56d25" href="#nosotros">Nosotros</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" style="color: #e56d25" href="#historia">Historia</a>
+          </li>
+        </ul>
+      </div>
     </div>
-    <!--Fin carrusel computadora-->
+  </nav>
 
-    <!--Inicio carrusel mobile-->
-    <div
-      style="font-family: 'Kanit', sans-serif"
-      id="carouselExampleIndicators"
-      data-bs-ride="carousel"
-      class="carousel slide"
-    >
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <img src="/Static/CodeTech Lema.png" class="d-block w-100" alt="..." />
-          <div class="boton-carrousel d-flex justify-content-center">
-            <!-- Modificación aquí -->
-            <a
-              class="btn btn-secondary"
-              style="
+  <!--Inicio de carrucel Computadora-->
+
+  <div style="font-family: monospace" id="carouselExampleDark" class="carousel carousel-dark slide">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
+        aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active" data-bs-interval="3000">
+        <img src="/Static/CodeTech Lema.png" class="d-block w-100" alt="..." />
+        <div class="carousel-caption d-none d-md-block">
+          <a class="btn btn-secondary" href="#nosotros" style="
                 color: #1171df;
                 background-color: #ffffffda;
                 border: #1171df solid;
-              "
-              href="nosotros.html"
-              role="button"
-              aria-disabled="true"
-              ><h5>Quienes Somos</h5></a
-            >
-            <!-- <p>Tus socios en el mundo digital</p> -->
-          </div>
-        </div>
-        <div class="carousel-item">
-          <img src="/Static/Fondo1logo.jpg" class="d-block w-100" alt="..." />
-          <div class="boton-carrousel d-flex justify-content-center">
-            <!-- Modificación aquí -->
-            <a
-              class="btn btn-secondary"
-              href="historia.html"
-              style="
-                color: #1171df;
-                background-color: #ffffffda;
-                border: #1171df solid;
-              "
-              role="button"
-              aria-disabled="true"
-              ><h5>Nuestra historia</h5></a
-            >
-          </div>
-        </div>
-        <div class="carousel-item">
-          <img src="/Static/Fondo2logo.jpg" class="d-block w-100" alt="..." />
-          <div class="boton-carrousel d-flex justify-content-center">
-            <!-- Modificación aquí -->
-            <a
-              class="btn btn-secondary"
-              href="#whatsappForm"
-              style="
-                color: #1171df;
-                background-color: #ffffffda;
-                border: #1171df solid;
-              "
-              role="button"
-              aria-disabled="true"
-              ><h5>Contacto</h5></a
-            >
-          </div>
+              " role="button" aria-disabled="true">
+            <h5>Quienes Somos</h5>
+          </a>
         </div>
       </div>
-      <button
-        class="carousel-control-prev"
-        type="button"
-        data-bs-target="#carouselExampleIndicators"
-        data-bs-slide="prev"
-      >
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-      </button>
-      <button
-        class="carousel-control-next"
-        type="button"
-        data-bs-target="#carouselExampleIndicators"
-        data-bs-slide="next"
-      >
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-      </button>
-    </div>
-    <!--Fin carrusel mobile-->
-
-
-    
-
-    <div
-      style="font-family: 'Kanit', sans-serif"
-      class="container d-flex flex-column justify-content-center mt-5"
-    >
-      <h4 class="mb-4 text-center">Contacto</h4>
-
-      <form class="d-flex flex-column justify-content-center" id="whatsappForm">
-        <div class="form-group">
-          <label for="mensaje" class="text-center align-self-center"
-            >Ingresa tu mensaje:</label
-          >
-          <textarea
-            style="border: solid 2px #1171df"
-            class="form-control mt-3 mx-auto"
-            id="mensaje"
-            name="mensaje"
-            rows="4"
-            placeholder="Escribe su mensaje aquí..."
-          ></textarea>
+      <div class="carousel-item" data-bs-interval="2000">
+        <img src="/Static/Fondo1logo.jpg" class="d-block w-100" alt="..." />
+        <div class="carousel-caption d-none d-md-block">
+          <a class="btn btn-secondary" href="#historia" style="
+                color: #1171df;
+                background-color: #ffffffda;
+                border: #1171df solid;
+              " role="button" aria-disabled="true">
+            <h5>Nuestra historia</h5>
+          </a>
+          <p></p>
         </div>
-        <button type="submit" class="btn btn-primary mt-2 align-self-center">
-          Enviar consulta
-        </button>
-      </form>
+      </div>
+      <div class="carousel-item">
+        <img src="/Static/Fondo2logo.jpg" class="d-block w-100" alt="..." />
+        <div class="carousel-caption d-none d-md-block">
+          <a class="btn btn-secondary" href="#whatsappForm" style="
+                color: #1171df;
+                background-color: #ffffffda;
+                border: #1171df solid;
+              " role="button" aria-disabled="true">
+            <h5>Contacto</h5>
+          </a>
+          <p></p>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+  <!--Fin carrusel computadora-->
+
+  <!--Inicio carrusel mobile-->
+  <div style="font-family: 'Kanit', sans-serif" id="carouselExampleIndicators" data-bs-ride="carousel"
+    class="carousel slide">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="/Static/CodeTech Lema.png" class="d-block w-100" alt="..." />
+        <div class="boton-carrousel d-flex justify-content-center">
+          <!-- Modificación aquí -->
+          <a class="btn btn-secondary" style="
+                color: #1171df;
+                background-color: #ffffffda;
+                border: #1171df solid;
+              " href="#nosotros" role="button" aria-disabled="true">
+            <h5>Quienes Somos</h5>
+          </a>
+          <!-- <p>Tus socios en el mundo digital</p> -->
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="/Static/Fondo1logo.jpg" class="d-block w-100" alt="..." />
+        <div class="boton-carrousel d-flex justify-content-center">
+          <!-- Modificación aquí -->
+          <a class="btn btn-secondary" href="#historia" style="
+                color: #1171df;
+                background-color: #ffffffda;
+                border: #1171df solid;
+              " role="button" aria-disabled="true">
+            <h5>Nuestra historia</h5>
+          </a>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="/Static/Fondo2logo.jpg" class="d-block w-100" alt="..." />
+        <div class="boton-carrousel d-flex justify-content-center">
+          <!-- Modificación aquí -->
+          <a class="btn btn-secondary" href="#whatsappForm" style="
+                color: #1171df;
+                background-color: #ffffffda;
+                border: #1171df solid;
+              " role="button" aria-disabled="true">
+            <h5>Contacto</h5>
+          </a>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+      data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+      data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+  <!--Fin carrusel mobile-->
+
+
+  <h3 style="font-family: 'Kanit', sans-serif;" id="nosotros" class="fw-bold mt-3 text-center">Nuestro equipo</h3>
+
+  <div class="contenedor" style="font-family: 'Kanit', sans-serif;">
+    <div class="grid3">
+      <div class="card" style="width: 18rem">
+        <img src="./Static/imgNosotros/Francisco.jpg" class="card-img-top" alt="..." />
+        <div class="card-body">
+          <h4 class="fw-bold text-center">Francisco Sulé</h4>
+          <p class="card-text text-center">Lider de proyecto</p>
+        </div>
+      </div>
+      <!--Fin card-->
+      <div class="card" style="width: 18rem">
+        <img src="./Static/imgNosotros/Azul.jpg" class="card-img-top" alt="..." />
+        <div class="card-body">
+          <h4 class="fw-bold text-center">Azul Medina</h4>
+          <p class="card-text text-center">Diseño grafico</p>
+        </div>
+      </div>
+      <!--Fin card-->
+      <div class="card" style="width: 18rem">
+        <img src="./Static/imgNosotros/Conrado.jpg" class="card-img-top" alt="..." />
+        <div class="card-body">
+          <h4 class="fw-bold text-center">Conrado Peloso</h4>
+          <p class="card-text text-center">Analista de negocio</p>
+        </div>
+      </div>
+      <!--Fin card-->
+      <div class="card" style="width: 18rem">
+        <img src="./Static/imgNosotros/Naomi.jpg" class="card-img-top" alt="..." />
+        <div class="card-body">
+          <h4 class="fw-bold text-center">Naomi Kakisu</h4>
+          <p class="card-text text-center">Diseño ux/ui web</p>
+        </div>
+      </div>
+      <!--Fin card-->
+      <div class="card" style="width: 18rem">
+        <img src="./Static/imgNosotros/Lucas.jpg" class="card-img-top" alt="..." />
+        <div class="card-body">
+          <h4 class="fw-bold text-center">Lucas Salva</h4>
+          <p class="card-text text-center">Comercio electrónico</p>
+        </div>
+      </div>
+      <!--Fin card-->
+      <div class="card" style="width: 18rem">
+        <img src="./Static/imgNosotros/Ruben.jpg" class="card-img-top" alt="..." />
+        <div class="card-body">
+          <h4 class="fw-bold text-center">Rubén Larocca</h4>
+          <p class="card-text text-center">Profesor</p>
+        </div>
+      </div>
+      <!--Fin card-->
+    </div>
+    <!--Fin grid3-->
+  </div>
+  <!--Fin contenedor-->
+
+
+
+  <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-root-margin="0px 0px -40%"
+    data-bs-smooth-scroll="true" class="scrollspy-example bg-body-tertiary p-3 mt-5 rounded-2" tabindex="0">
+
+    <p>
+    <div class="">
+      <h3 id="historia" class="text-center fw-bold">Historia</h3>
+      <p class="text-start historia">
+        Una vez que nos decidimos por CodeTech, supimos que era hora de darle
+        vida a nuestra identidad. Armamos un logo que reflejaba lo que somos,
+        una mezcla de pura excelencia y la pasión por seguir avanzando. Fue
+        entonces cuando una idea tomó forma: ¿Por qué conformarnos con una
+        simple presentación de PowerPoint cuando podríamos crear algo
+        extraordinario? Así nació la idea de una página web, una plataforma que
+        no solo mostraría nuestras habilidades. Mientras dábamos forma a la
+        página web, surgieron los valores que definirían nuestra cultura como
+        equipo: la creatividad, la colaboración, la integridad y el compromiso
+        con la excelencia. Cada línea de código, cada diseño, cada palabra
+        escrita estaba impregnada con estos valores, creando una experiencia que
+        trascendía lo ordinario. Y en medio de este proceso, surgió nuestro
+        lema: "Tus socios en el mundo digital". No era simplemente una frase,
+        sino un compromiso profundo con nuestros clientes, nuestros
+        colaboradores y con nosotros mismos. Era un recordatorio constante de
+        que, juntos, éramos capaces de alcanzar grandes alturas y superar
+        cualquier desafío que se interpusiera en nuestro camino. Así, con
+        CodeTech como nuestro aliado y nuestra inspiración, nos embarcamos en un
+        viaje emocionante hacia el éxito.
+      </p>
+    </div>
+    </p>
+    <p>
+    <div class="">
+      <h3 class="text-center fw-bold">Identidad</h3>
+      <p id="scrollspyHeading2" class="text-start historia">
+        Así como la creatividad, la colaboración, la integridad y el compromiso con la excelencia nos identifica
+        plenamente como equipo de trabajo, también destacamos de otra forma, creando e innovando para demostrar que cada
+        barrera en nuestro camino nunca será un impedimento, por eso, decidimos representar lo que somos con los valores
+        de:<br><br>
+        1. Eficacia:<br>
+        Nuestra empresa se orienta en ser eficaz con la intención de guiar los esfuerzos hacia las metas que busquen
+        lograr la supervivencia y crecimiento de la empresa. El trabajo en equipo y buena comunicación logra este
+        objetivo.<br><br>
+
+        2. Abrimos nuevos caminos:<br>
+        Progresando y creando, logramos que las personas incorporen los servicios como un beneficio hacia si
+        mismo.<br><br>
+
+        3. Innovación progresiva<br>
+        Constantemente encontramos nuevas formas de mejorar la vida de las personas mediante la creación de servicios
+        innovadores.<br><br>
+
+        4. Paciencia Perpetua:<br>
+        Conservar la tranquilidad y la compostura ante desafíos o momentos complicados, y perseverar con serenidad y
+        firmeza.
+      </p>
+    </div>
+    </p>
+
+  </div>
+
+
+  <h3 style="font-family: 'Kanit', sans-serif;" class="fw-bold text-center">Proyectos</h3>
+
+    <div class="contenedor" style="font-family: 'Kanit', sans-serif;">
+      <div class="grid3">
+        <div class="card" style="width: 18rem">
+          <img
+            src="./Static/IES.png"
+            class="card-img-top"
+            alt="..."
+          />
+          <div class="card-body">
+            <h4 class="fw-bold text-center">Sistema de Gestión IES + Asistencia</h4>
+            <p class="card-text text-center"></p>
+          </div>
+        </div>
+        <!--Fin card-->
+        <div class="card" style="width: 18rem; border: solid 8px gold;;">
+          <img
+            src="./Static/qr.jpg"
+            class="card-img-top"
+            alt="..."
+          />
+          <div class="card-body">
+            <h4 class="fw-bold text-center">Automatización de compra en establecimiento fisico</h4>
+            <p class="card-text text-center"></p>
+          </div>
+        </div>
+        <!--Fin card-->
+        <div class="card" style="width: 18rem">
+          <img
+            src="./Static/estacionamiento.jpg"
+            class="card-img-top"
+            alt="..."
+          />
+          <div class="card-body">
+            <h4 class="fw-bold text-center">Sistema de Monitoreo en tiempo real para estacionamientos</h4>
+            <p class="card-text text-center"></p>
+          </div>
+        </div>
+        <!--Fin card-->
+        
+        <!--Fin card-->
+        
+        <!--Fin card-->
+        
+        <!--Fin card-->
+      </div>
+      <!--Fin grid3-->
+    </div>
+    <!--Fin contenedor-->
+
+
+    <div class="text-center">
+      <h3>Metodologia de trabajo</h3>
+      <img class="img-fluid" src="./Static/Metodologia de trabajo.png" alt="">
     </div>
 
-    <footer>
-      <div>
-        <img src="/Static/CodeTech Original.png" alt="" />
-        <!-- <nav
+
+  <div style="font-family: 'Kanit', sans-serif" class="container d-flex flex-column justify-content-center mt-5">
+    <h4 class="mb-4 text-center">Contacto</h4>
+
+    <form class="d-flex flex-column justify-content-center" id="whatsappForm">
+      <div class="form-group">
+        <label for="mensaje" class="text-center align-self-center">Ingresa tu mensaje:</label>
+        <textarea style="border: solid 2px #1171df" class="form-control mt-3 mx-auto" id="mensaje" name="mensaje"
+          rows="4" placeholder="Escribe su mensaje aquí..."></textarea>
+      </div>
+      <button type="submit" class="btn btn-primary mt-2 align-self-center">
+        Enviar consulta
+      </button>
+    </form>
+  </div>
+
+  <footer>
+    <div>
+      <img src="/Static/CodeTech Original.png" alt="" />
+      <!-- <nav
           class="contenedor d-flex justify-content-center"
           style="gap: 12px; margin-top: -10pxrem"
         >
@@ -301,15 +374,14 @@
             >Nuestra historia</a
           >
         </nav> -->
-        <h5 class="">Derechos reservados</h5>
-      </div>
-    </footer>
+      <h5 class="">Derechos reservados</h5>
+    </div>
+  </footer>
 
-    <script src="js/script.js"></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-      crossorigin="anonymous"
-    ></script>
-  </body>
+  <script src="js/script.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+</body>
+
 </html>
